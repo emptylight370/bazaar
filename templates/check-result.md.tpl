@@ -19,6 +19,7 @@
   - {{ if $repo.Attrs.Version.Pass }}[x] `version`: `{{ $repo.Attrs.Version.Value }}`{{ else }}[ ] `version`{{ end }}
   - {{ if $repo.Attrs.Author.Pass }}[x] `author`: `{{ $repo.Attrs.Author.Value }}`{{ else }}[ ] `author`{{ end }}
   - {{ if $repo.Attrs.URL.Pass }}[x] `url`: [{{ $repo.Attrs.URL.Value }}](<{{ $repo.Attrs.URL.Value }}>){{ else }}[ ] `url`{{ end }}
+    - {{ if $repo.Attrs.URL.Valid }}[x]{{ else }}[ ]{{ end }} `url` matches the repository url
 
 ---
 {{ end }}
@@ -42,6 +43,7 @@
   - {{ if $repo.Attrs.Version.Pass }}[x] `version`: `{{ $repo.Attrs.Version.Value }}`{{ else }}[ ] `version`{{ end }}
   - {{ if $repo.Attrs.Author.Pass }}[x] `author`: `{{ $repo.Attrs.Author.Value }}`{{ else }}[ ] `author`{{ end }}
   - {{ if $repo.Attrs.URL.Pass }}[x] `url`: [{{ $repo.Attrs.URL.Value }}](<{{ $repo.Attrs.URL.Value }}>){{ else }}[ ] `url`{{ end }}
+    - {{ if $repo.Attrs.URL.Valid }}[x]{{ else }}[ ]{{ end }} `url` matches the repository url
 
 ---
 {{ end }}
@@ -64,6 +66,7 @@
   - {{ if $repo.Attrs.Version.Pass }}[x] `version`: `{{ $repo.Attrs.Version.Value }}`{{ else }}[ ] `version`{{ end }}
   - {{ if $repo.Attrs.Author.Pass }}[x] `author`: `{{ $repo.Attrs.Author.Value }}`{{ else }}[ ] `author`{{ end }}
   - {{ if $repo.Attrs.URL.Pass }}[x] `url`: [{{ $repo.Attrs.URL.Value }}](<{{ $repo.Attrs.URL.Value }}>){{ else }}[ ] `url`{{ end }}
+    - {{ if $repo.Attrs.URL.Valid }}[x]{{ else }}[ ]{{ end }} `url` matches the repository url
 
 ---
 {{ end }}
@@ -86,6 +89,7 @@
   - {{ if $repo.Attrs.Version.Pass }}[x] `version`: `{{ $repo.Attrs.Version.Value }}`{{ else }}[ ] `version`{{ end }}
   - {{ if $repo.Attrs.Author.Pass }}[x] `author`: `{{ $repo.Attrs.Author.Value }}`{{ else }}[ ] `author`{{ end }}
   - {{ if $repo.Attrs.URL.Pass }}[x] `url`: [{{ $repo.Attrs.URL.Value }}](<{{ $repo.Attrs.URL.Value }}>){{ else }}[ ] `url`{{ end }}
+    - {{ if $repo.Attrs.URL.Valid }}[x]{{ else }}[ ]{{ end }} `url` matches the repository url
 
 ---
 {{ end }}
@@ -108,6 +112,7 @@
   - {{ if $repo.Attrs.Version.Pass }}[x] `version`: `{{ $repo.Attrs.Version.Value }}`{{ else }}[ ] `version`{{ end }}
   - {{ if $repo.Attrs.Author.Pass }}[x] `author`: `{{ $repo.Attrs.Author.Value }}`{{ else }}[ ] `author`{{ end }}
   - {{ if $repo.Attrs.URL.Pass }}[x] `url`: [{{ $repo.Attrs.URL.Value }}](<{{ $repo.Attrs.URL.Value }}>){{ else }}[ ] `url`{{ end }}
+    - {{ if $repo.Attrs.URL.Valid }}[x]{{ else }}[ ]{{ end }} `url` matches the repository url
 
 ---
 {{ end }}

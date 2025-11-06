@@ -150,7 +150,7 @@ type Attrs struct {
 	Name    Name `json:"name"`
 	Version Attr `json:"version"`
 	Author  Attr `json:"author"`
-	URL     Attr `json:"url"`
+	URL     Url  `json:"url"`
 }
 
 type Name struct {
@@ -160,6 +160,13 @@ type Name struct {
 	Exist  bool `json:"exist"`  // name 字段是否存在
 	Valid  bool `json:"valid"`  // name 字段值是否有效 (在不同平台均为合法的目录名)
 	Unique bool `json:"unique"` // name 字段值在同类资源中是否唯一 (大小写不敏感)
+}
+
+type Url struct {
+	Pass  bool   `json:"pass"`  // url 字段检查是否通过
+	Value string `json:"value"` // url 字段值
+
+	Valid  bool `json:"valid"`  // url 字段值是否有效 (清单文件url与仓库地址一致)
 }
 
 type Attr struct {

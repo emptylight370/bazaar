@@ -270,6 +270,18 @@ func checkRepo(
 				logger.Warnf("repo <\033[7m%s\033[0m> name <\033[7m%s\033[0m> is invalid", repoPath, attrsCheckResult.Name.Value)
 			}
 
+			// 有效性检查
+			if attrsCheckResult.URL.Pass {
+				exceptedURL := buildRepoHomeURL(repoOwner, repoName)
+				// url 必须与 repo 一致
+				attrsCheckResult.URL.Valid = attrsCheckResult.URL.Value == exceptedURL
+				if !attrsCheckResult.URL.Valid {
+					logger.Warnf("repo <\033[7m%s\033[0m> url <\033[7m%s\033[0m> is not equal to repo url <\033[7m%s\033[0m>", repoPath, attrsCheckResult.URL.Value, exceptedURL)
+				}
+			} else {
+				logger.Warnf("repo <\033[7m%s\033[0m> url <\033[7m%s\033[0m> is invalid", repoPath, attrsCheckResult.URL.Value)
+			}
+
 			// 唯一性检查
 			if attrsCheckResult.Name.Valid {
 				name := attrsCheckResult.Name.Value

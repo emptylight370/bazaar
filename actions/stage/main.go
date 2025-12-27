@@ -14,6 +14,7 @@ import (
 	"crypto/tls"
 	"os"
 	"path/filepath"
+	"reflect"
 	"sort"
 	"strings"
 	"sync"
@@ -43,6 +44,60 @@ func main() {
 	logger.Infof("bazaar staged")
 }
 
+// loadOldStageData 加载现有的 stage 文件数据，返回以 owner/repo 为 key 的映射
+func loadOldStageData(typ string) map[string]*StageRepo {
+	oldStageData := make(map[string]*StageRepo)
+	stageFilePath := "stage/" + typ + ".json"
+
+	stageData, err := os.ReadFile(stageFilePath)
+	if nil != err {
+		return oldStageData
+	}
+
+	oldStaged := map[string]interface{}{}
+	if err = gulu.JSON.UnmarshalJSON(stageData, &oldStaged); nil != err {
+		return oldStageData
+	}
+
+	oldRepos, ok := oldStaged["repos"].([]interface{})
+	if !ok {
+		return oldStageData
+	}
+
+	for _, repo := range oldRepos {
+		repoMap, ok := repo.(map[string]interface{})
+		if !ok {
+			continue
+		}
+
+		url, ok := repoMap["url"].(string)
+		if !ok {
+			continue
+		}
+
+		// 从 URL 中提取 owner/repo（去掉 @hash 部分）
+		idx := strings.Index(url, "@")
+		if idx <= 0 {
+			continue
+		}
+
+		repoKey := url[:idx]
+		stageRepo := &StageRepo{}
+		repoJSON, marshalErr := gulu.JSON.MarshalJSON(repoMap)
+		if nil != marshalErr {
+			continue
+		}
+
+		if err = gulu.JSON.UnmarshalJSON(repoJSON, stageRepo); nil != err {
+			continue
+		}
+
+		oldStageData[repoKey] = stageRepo
+	}
+
+	return oldStageData
+}
+
 func performStage(typ string) {
 	logger.Infof("staging [%s]", typ)
 
@@ -57,6 +112,9 @@ func performStage(typ string) {
 	}
 
 	repos := original["repos"].([]interface{})
+
+	oldStageData := loadOldStageData(typ)
+
 	lock := sync.Mutex{}
 	var stageRepos []interface{}
 	waitGroup := &sync.WaitGroup{}
@@ -70,10 +128,31 @@ func performStage(typ string) {
 		var pkg *Package
 
 		if ok, hash, updated, size, installSize, pkg = indexPackage(repo, typ); !ok {
+			// 如果索引失败，尝试使用旧数据
+			lock.Lock()
+			if oldRepo, exists := oldStageData[repo]; exists {
+				stageRepos = append(stageRepos, oldRepo)
+				logger.Warnf("index failed for [%s], keeping old data", repo)
+			} else {
+				logger.Warnf("index failed for [%s] and no old data found", repo)
+			}
+			lock.Unlock()
 			return
 		}
 
-		stars, openIssues := repoStats(repo, hash)
+		stars, openIssues, ok := repoStats(repo)
+		// 如果获取统计数据失败，尝试使用旧数据
+		if !ok {
+			lock.Lock()
+			if oldRepo, exists := oldStageData[repo]; exists {
+				stageRepos = append(stageRepos, oldRepo)
+				logger.Warnf("repoStats failed for [%s], keeping old data", repo)
+			} else {
+				logger.Warnf("repoStats failed for [%s] and no old data found", repo)
+			}
+			lock.Unlock()
+			return
+		}
 
 		lock.Lock()
 		defer lock.Unlock()
@@ -117,14 +196,9 @@ func performStage(typ string) {
 
 // indexPackage 索引包
 func indexPackage(repoURL, typ string) (ok bool, hash, published string, size, installSize int64, pkg *Package) {
-	hash, published, packageZip := getRepoLatestRelease(repoURL)
-	if "" == hash {
+	hash, published, packageZip, ok := getRepoLatestRelease(repoURL)
+	if !ok {
 		logger.Warnf("get [%s] latest release failed", repoURL)
-		return
-	}
-
-	if "" == packageZip {
-		logger.Warnf("get [%s] package.zip failed", repoURL)
 		return
 	}
 
@@ -173,15 +247,43 @@ func indexPackage(repoURL, typ string) (ok bool, hash, published string, size, i
 		os.RemoveAll(tmpZipPath)
 	}
 
+	// 先获取插件配置，以便根据配置上传对应的 README 文件
+	pkg = getPackage(repoURL, hash, typ)
+	if nil == pkg {
+		logger.Warnf("get package [%s] failed", repoURL)
+		return
+	}
+
+	// 收集需要上传的 README 文件列表（根据插件配置中的 readme 字段）
+	readmeFiles := make(map[string]bool)
+	if nil != pkg.Readme {
+		readmeValue := reflect.ValueOf(pkg.Readme).Elem()
+		for i := 0; i < readmeValue.NumField(); i++ {
+			fieldValue := readmeValue.Field(i)
+			if fieldValue.Kind() == reflect.String {
+				readmePath := fieldValue.String()
+				if "" != readmePath {
+					readmeFiles["/"+readmePath] = true
+				}
+			}
+		}
+	}
+	// 如果没有配置 readme 字段或所有字段都为空，则上传默认的 README 文件（向后兼容）
+	if 0 == len(readmeFiles) {
+		readmeFiles["/README_zh_CN.md"] = true
+		readmeFiles["/README_en_US.md"] = true
+	}
+	// 无论是否收集到 README.md 文件，都需要上传
+	readmeFiles["/README.md"] = true
+
+	// 并发上传文件
 	wg := &sync.WaitGroup{}
-	wg.Add(7)
-	go func() {
-		defer wg.Done()
-		pkg = getPackage(repoURL, hash, typ)
-	}()
-	go indexPackageFile(repoURL, hash, "/README.md", 0, 0, wg)
-	go indexPackageFile(repoURL, hash, "/README_zh_CN.md", 0, 0, wg)
-	go indexPackageFile(repoURL, hash, "/README_en_US.md", 0, 0, wg)
+	wg.Add(3 + len(readmeFiles))
+	// 上传 README 文件
+	for readmeFile := range readmeFiles {
+		go indexPackageFile(repoURL, hash, readmeFile, 0, 0, wg)
+	}
+	// 上传其他固定文件
 	go indexPackageFile(repoURL, hash, "/preview.png", 0, 0, wg)
 	go indexPackageFile(repoURL, hash, "/icon.png", 0, 0, wg)
 	go indexPackageFile(repoURL, hash, "/"+strings.TrimSuffix(typ, "s")+".json", size, installSize, wg)
@@ -262,7 +364,7 @@ func indexPackageFile(ownerRepo, hash, filePath string, size, installSize int64,
 	return true
 }
 
-func repoStats(repoURL, hash string) (stars, openIssues int) {
+func repoStats(repoURL string) (stars, openIssues int, ok bool) {
 	result := map[string]interface{}{}
 	request := gorequest.New().TLSClientConfig(&tls.Config{InsecureSkipVerify: true})
 	pat := os.Getenv("PAT")
@@ -272,22 +374,23 @@ func repoStats(repoURL, hash string) (stars, openIssues int) {
 		Set("User-Agent", util.UserAgent).Timeout(30*time.Second).
 		Retry(1, 3*time.Second).EndStruct(&result)
 	if nil != errs {
-		logger.Fatalf("get [%s] failed: %s", u, errs)
-		return 0, 0
+		logger.Warnf("get [%s] failed: %s", u, errs)
+		return
 	}
 	if 200 != resp.StatusCode {
-		logger.Fatalf("get [%s] failed: %d", u, resp.StatusCode)
-		return 0, 0
+		logger.Warnf("get [%s] failed: %d", u, resp.StatusCode)
+		return
 	}
 
 	//logger.Infof("X-Ratelimit-Remaining=%s]", resp.Header.Get("X-Ratelimit-Remaining"))
 	stars = int(result["stargazers_count"].(float64))
 	openIssues = int(result["open_issues_count"].(float64))
+	ok = true
 	return
 }
 
 // getRepoLatestRelease 获取仓库最新发布的版本
-func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
+func getRepoLatestRelease(repoURL string) (hash, published, packageZip string, ok bool) {
 	result := map[string]interface{}{}
 	request := gorequest.New().TLSClientConfig(&tls.Config{InsecureSkipVerify: true})
 	pat := os.Getenv("PAT")
@@ -298,7 +401,7 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
 		Set("User-Agent", util.UserAgent).Timeout(30*time.Second).
 		Retry(3, 3*time.Second).EndStruct(&result)
 	if nil != errs {
-		logger.Fatalf("get release hash [%s] failed: %s", u, errs)
+		logger.Warnf("get release hash [%s] failed: %s", u, errs)
 		return
 	}
 	if 200 != resp.StatusCode {
@@ -318,12 +421,17 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
 	}
 
 	if "" == packageZip {
+		logger.Warnf("get [%s] package.zip failed: package.zip not found in release assets", repoURL)
 		return
 	}
 
 	// 获取 release 对应的 tag
 	published = result["published_at"].(string)
 	tagName := result["tag_name"].(string)
+	if "" == tagName {
+		logger.Warnf("get [%s] tag_name failed: tag_name is empty", repoURL)
+		return
+	}
 	// REF https://docs.github.com/en/rest/git/refs#get-a-reference
 	u = "https://api.github.com/repos/" + repoURL + "/git/ref/tags/" + tagName
 	resp, _, errs = request.Get(u).
@@ -341,6 +449,10 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
 
 	// 获取 release 对应的提交的 hash
 	hash = result["object"].(map[string]interface{})["sha"].(string)
+	if "" == hash {
+		logger.Warnf("get [%s] release hash failed: hash is empty", repoURL)
+		return
+	}
 	typ := result["object"].(map[string]interface{})["type"].(string)
 	if "tag" == typ {
 		// REF https://docs.github.com/en/rest/git/tags#get-a-tag
@@ -350,16 +462,21 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
 			Set("User-Agent", util.UserAgent).Timeout(30*time.Second).
 			Retry(1, 3*time.Second).EndStruct(&result)
 		if nil != errs {
-			logger.Fatalf("get release hash [%s] failed: %s", u, errs)
+			logger.Warnf("get release hash [%s] failed: %s", u, errs)
 			return
 		}
 		if 200 != resp.StatusCode {
-			logger.Fatalf("get release hash [%s] failed: %d", u, resp.StatusCode)
+			logger.Warnf("get release hash [%s] failed: %d", u, resp.StatusCode)
 			return
 		}
 
 		hash = result["object"].(map[string]interface{})["sha"].(string)
+		if "" == hash {
+			logger.Warnf("get [%s] tag hash failed: hash is empty", repoURL)
+			return
+		}
 	}
+	ok = true
 	return
 }
 
@@ -396,8 +513,20 @@ type Description struct {
 
 type Readme struct {
 	Default string `json:"default"`
-	ZhCN    string `json:"zh_CN"`
+	ArSA    string `json:"ar_SA"`
+	DeDE    string `json:"de_DE"`
 	EnUS    string `json:"en_US"`
+	EsES    string `json:"es_ES"`
+	FrFR    string `json:"fr_FR"`
+	HeIL    string `json:"he_IL"`
+	ItIT    string `json:"it_IT"`
+	JaJP    string `json:"ja_JP"`
+	KoKR    string `json:"ko_KR"`
+	PlPL    string `json:"pl_PL"`
+	PtBR    string `json:"pt_BR"`
+	RuRU    string `json:"ru_RU"`
+	ZhCHT   string `json:"zh_CHT"`
+	ZhCN    string `json:"zh_CN"`
 }
 
 type Funding struct {

@@ -13,6 +13,7 @@
     "siyuan-note/widget-sample",
     "suka233/siyuan-Kmind",
     "hito0512/DynamicTodo",
+    "hogmoff/siyuan-widget-chart",
     "dicarne/sy-secret-block",
     "Ultrasonicer/Wordcounter",
     "muhanstudio/docs-all-in-one",
@@ -46,6 +47,8 @@
     "tangshangkui/encrypt-excel",
     "Jasaxion/siyuan-code-judge",
     "WACrown/widget-drawio-watermelonhub",
-    "TCOTC/inline-elements"
+    "TCOTC/inline-elements",
+    "xiaoduo/sy-widget-show-diff",
+    "golddogfish/siyuan-gantt"
   ]
 }

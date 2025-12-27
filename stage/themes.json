@@ -1,60 +1,187 @@
 {
   "repos": [
     {
-      "url": "QYLexpired/QYL-theme@0597b7ab8f7ea0548a986c7e01f13a89f204aeab",
-      "updated": "2025-11-06T06:11:30Z",
-      "stars": 120,
-      "openIssues": 0,
-      "size": 1018824,
-      "installSize": 2300428,
+      "url": "mustakshif/Asri@dcc8ce48f659ed36bbc4193afa15a69f1262f9ed",
+      "updated": "2025-12-24T04:33:25Z",
+      "stars": 98,
+      "openIssues": 3,
+      "size": 297178,
+      "installSize": 726714,
       "package": {
-        "name": "QYL-theme",
-        "author": "QYL",
-        "url": "https://github.com/QYLexpired/QYL-theme",
-        "version": "4.6.5",
+        "name": "Asri",
+        "author": "mustakshif",
+        "url": "https://github.com/mustakshif/Asri",
+        "version": "3.6.2",
         "minAppVersion": "",
         "backends": null,
         "frontends": null,
         "displayName": {
-          "default": "QYL",
-          "zh_CN": "QYL",
-          "en_US": "QYL"
+          "default": "Asri",
+          "zh_CN": "Asri",
+          "en_US": "Asri"
         },
         "description": {
-          "default": "Deliver an enhanced note-taking experience.",
-          "zh_CN": "带来更丰富的笔记体验",
-          "en_US": "Deliver an enhanced note-taking experience."
+          "default": "Crafting a space where visual distractions disappear and your thinking takes center stage - immersive, focused, and intuitively guided.",
+          "zh_CN": "极富现代感的主题，以隐形设计构筑沉浸空间，为你带来专注、优雅、直觉驱动的笔记体验。",
+          "en_US": ""
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": "README.md"
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": []
+        },
+        "keywords": [
+          "Asri",
+          "Hadeeth"
+        ]
+      }
+    },
+    {
+      "url": "emptylight370/siyuan-vscodelite-edit@2523f35e7692ac6f1a5e21ac3980b4144bd1c382",
+      "updated": "2025-12-23T05:03:49Z",
+      "stars": 3,
+      "openIssues": 4,
+      "size": 343607,
+      "installSize": 521606,
+      "package": {
+        "name": "siyuan-vscodelite-edit",
+        "author": "Emptylight",
+        "url": "https://github.com/emptylight370/siyuan-vscodelite-edit",
+        "version": "2.6.2",
+        "minAppVersion": "3.4.1",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "VSCode Lite Edit",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Evolved from VSCode Lite, further beautifying the interface.",
+          "zh_CN": "从VSCode Lite中改造而来，进一步美化界面。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
           "patreon": "",
           "github": "",
           "custom": [
-            "https://ifdian.net/a/QYLexpired"
+            "https://afdian.com/a/tingyuting"
           ]
         },
         "keywords": [
-          "QYL"
+          "vscode",
+          "vscodelite",
+          "vscode lite",
+          "VSCE",
+          "VSCE主题",
+          "light",
+          "dark",
+          "emptylight",
+          "emptylight370"
         ]
       }
     },
     {
-      "url": "royc01/notion-theme@47d6299adbe1fa46c03e7965351fcebcf96d2a3f",
-      "updated": "2025-11-02T04:50:23Z",
-      "stars": 122,
-      "openIssues": 2,
-      "size": 1185574,
-      "installSize": 1517415,
+      "url": "idea-zone/mini-vlook@5aad4c1f0e7d4a72142637d682fbb9fc6b37b0af",
+      "updated": "2025-12-19T13:19:05Z",
+      "stars": 22,
+      "openIssues": 7,
+      "size": 3787583,
+      "installSize": 11649797,
+      "package": {
+        "name": "mini-vlook",
+        "author": "路人二",
+        "url": "https://github.com/idea-zone/mini-vlook",
+        "version": "3.5.0",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "mini-vlook（简洁版vlook）",
+          "zh_CN": "mini-vlook（简洁版vlook）",
+          "en_US": "mini-vlook"
+        },
+        "description": {
+          "default": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
+          "zh_CN": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
+          "en_US": "Concise but not simple, let you have a \u0026#39;mini\u0026#39; new look on markdown"
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "README_en_US.md",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/mini-vlook"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "royc01/notion-theme@9942628d8563066b97644b3dccc7ac90dd812e5c",
+      "updated": "2025-12-19T04:39:18Z",
+      "stars": 127,
+      "openIssues": 4,
+      "size": 1213345,
+      "installSize": 1587223,
       "package": {
         "name": "Savor",
         "author": "Roy",
         "url": "https://github.com/royc01/notion-theme",
-        "version": "5.9.6",
+        "version": "6.1.0",
         "minAppVersion": "",
         "backends": null,
         "frontends": null,
@@ -70,8 +197,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -82,6 +221,170 @@
           ]
         },
         "keywords": null
+      }
+    },
+    {
+      "url": "QYLexpired/QYL-theme@003847b5b54c15d39dcc0abbb6e2f06ca84d63ba",
+      "updated": "2025-12-16T13:52:39Z",
+      "stars": 125,
+      "openIssues": 3,
+      "size": 1108228,
+      "installSize": 2470087,
+      "package": {
+        "name": "QYL-theme",
+        "author": "QYL",
+        "url": "https://github.com/QYLexpired/QYL-theme",
+        "version": "4.6.14",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "QYL",
+          "zh_CN": "QYL",
+          "en_US": "QYL"
+        },
+        "description": {
+          "default": "Deliver an enhanced note-taking experience.",
+          "zh_CN": "带来更丰富的笔记体验",
+          "en_US": "Deliver an enhanced note-taking experience."
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "README.md",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "README_zh_CHT.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://ifdian.net/a/QYLexpired"
+          ]
+        },
+        "keywords": [
+          "QYL"
+        ]
+      }
+    },
+    {
+      "url": "Achuan-2/siyuan-themes-tsundoku@438192bac6c575e8895ff25f241bf52cc2c92c12",
+      "updated": "2025-12-14T10:30:48Z",
+      "stars": 113,
+      "openIssues": 0,
+      "size": 3540880,
+      "installSize": 4762851,
+      "package": {
+        "name": "Tsundoku",
+        "author": "Achuan-2",
+        "url": "https://github.com/Achuan-2/siyuan-themes-tsundoku",
+        "version": "2.7.7",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Tsundoku",
+          "zh_CN": "積読",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Tsundoku is acquiring reading materials but letting them pile up in one\u0026#39;s home without reading them",
+          "zh_CN": "知识的价值并不体现在它的组织和分类形式上，而是体现在它是否能对与你相关的人或事产生影响",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://www.yuque.com/achuan-2"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "TCOTC/Whisper@752988333ee14c0529d7b166d5ba5d378173c513",
+      "updated": "2025-12-13T19:20:43Z",
+      "stars": 15,
+      "openIssues": 9,
+      "size": 175130,
+      "installSize": 290027,
+      "package": {
+        "name": "Whisper",
+        "author": "TCOTC",
+        "url": "https://github.com/TCOTC/Whisper",
+        "version": "1.7.0",
+        "minAppVersion": "3.3.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Whisper",
+          "zh_CN": "浅吟",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Whisper the words of time gently, and let the soul encounter the splendid dream of blooming flowers in tranquility.",
+          "zh_CN": "浅吟时光的絮语，让心灵于静谧中邂逅繁花盛绽的绮梦。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "README_ja_JP.md",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "README_zh_CHT.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://bento.me/jeffff"
+          ]
+        },
+        "keywords": [
+          "浅吟主题",
+          "whisper theme"
+        ]
       }
     },
     {
@@ -111,97 +414,23 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": null,
         "keywords": null
-      }
-    },
-    {
-      "url": "mustakshif/Asri@7ddc7cca562aaa97fbf940e9f50db25d6d077fb9",
-      "updated": "2025-10-27T13:50:06Z",
-      "stars": 92,
-      "openIssues": 4,
-      "size": 3016200,
-      "installSize": 3420637,
-      "package": {
-        "name": "Asri",
-        "author": "mustakshif",
-        "url": "https://github.com/mustakshif/Asri",
-        "version": "3.5.17",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Asri",
-          "zh_CN": "Asri",
-          "en_US": "Asri"
-        },
-        "description": {
-          "default": "Crafting a space where visual distractions disappear and your thinking takes center stage - immersive, focused, and intuitively guided.",
-          "zh_CN": "极富现代感的主题，以隐形设计构筑沉浸空间，为你带来专注、优雅、直觉驱动的笔记体验。",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": []
-        },
-        "keywords": [
-          "Asri",
-          "Hadeeth"
-        ]
-      }
-    },
-    {
-      "url": "TCOTC/Whisper@99f6fe12dcd46d4b3b123db5dc0e27d868bb4c65",
-      "updated": "2025-10-24T20:21:14Z",
-      "stars": 13,
-      "openIssues": 9,
-      "size": 174239,
-      "installSize": 287085,
-      "package": {
-        "name": "Whisper",
-        "author": "TCOTC",
-        "url": "https://github.com/TCOTC/Whisper",
-        "version": "1.6.4",
-        "minAppVersion": "3.3.0",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Whisper",
-          "zh_CN": "浅吟",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Whisper the words of time gently, and let the soul encounter the splendid dream of blooming flowers in tranquility.",
-          "zh_CN": "浅吟时光的絮语，让心灵于静谧中邂逅繁花盛绽的绮梦。",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://bento.me/jeffff"
-          ]
-        },
-        "keywords": [
-          "浅吟主题",
-          "whisper theme"
-        ]
       }
     },
     {
@@ -231,8 +460,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -241,47 +482,6 @@
           "custom": []
         },
         "keywords": []
-      }
-    },
-    {
-      "url": "Achuan-2/siyuan-themes-tsundoku@88c716d855aeb5bfe4b45ef71d72c5f89c27c143",
-      "updated": "2025-10-04T13:50:39Z",
-      "stars": 109,
-      "openIssues": 0,
-      "size": 3539491,
-      "installSize": 4755987,
-      "package": {
-        "name": "Tsundoku",
-        "author": "Achuan-2",
-        "url": "https://github.com/Achuan-2/siyuan-themes-tsundoku",
-        "version": "2.7.1",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Tsundoku",
-          "zh_CN": "積読",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Tsundoku is acquiring reading materials but letting them pile up in one\u0026#39;s home without reading them",
-          "zh_CN": "知识的价值并不体现在它的组织和分类形式上，而是体现在它是否能对与你相关的人或事产生影响",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://www.yuque.com/achuan-2"
-          ]
-        },
-        "keywords": null
       }
     },
     {
@@ -311,62 +511,23 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": null,
         "keywords": null
-      }
-    },
-    {
-      "url": "emptylight370/siyuan-vscodelite-edit@ce9a52288548f75a62adc4feafa0e84beb80550e",
-      "updated": "2025-09-22T12:13:18Z",
-      "stars": 3,
-      "openIssues": 5,
-      "size": 300903,
-      "installSize": 529833,
-      "package": {
-        "name": "siyuan-vscodelite-edit",
-        "author": "Emptylight",
-        "url": "https://github.com/emptylight370/siyuan-vscodelite-edit",
-        "version": "2.5.0",
-        "minAppVersion": "3.1.27",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "VSCode Lite Edit",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Evolved from VSCode Lite, further beautifying the interface.",
-          "zh_CN": "从VSCode Lite中改造而来，进一步美化界面。",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.com/a/tingyuting"
-          ]
-        },
-        "keywords": [
-          "vscode",
-          "vscodelite",
-          "vscode lite",
-          "VSCE",
-          "VSCE主题",
-          "light",
-          "dark",
-          "emptylight",
-          "emptylight370"
-        ]
       }
     },
     {
@@ -396,8 +557,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -468,8 +641,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -509,51 +694,22 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": null,
-        "keywords": null
-      }
-    },
-    {
-      "url": "idea-zone/mini-vlook@9043e1e587e8b2e8599489728958e9f8e48f07ff",
-      "updated": "2025-07-24T12:45:35Z",
-      "stars": 21,
-      "openIssues": 7,
-      "size": 3774174,
-      "installSize": 11590750,
-      "package": {
-        "name": "mini-vlook",
-        "author": "路人二",
-        "url": "https://github.com/idea-zone/mini-vlook",
-        "version": "3.2.1",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "mini-vlook（简洁版vlook）",
-          "zh_CN": "mini-vlook（简洁版vlook）",
-          "en_US": "mini-vlook"
-        },
-        "description": {
-          "default": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
-          "zh_CN": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
-          "en_US": "Concise but not simple, let you have a \u0026#39;mini\u0026#39; new look on markdown"
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": "README_en_US.md"
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/mini-vlook"
-          ]
-        },
         "keywords": null
       }
     },
@@ -561,7 +717,7 @@
       "url": "pureTrue/siyuan-theme-darkside@d0a49e9da727b84c36fb7e390f64e989f95d72aa",
       "updated": "2025-07-17T09:38:51Z",
       "stars": 11,
-      "openIssues": 4,
+      "openIssues": 5,
       "size": 2013109,
       "installSize": 2419827,
       "package": {
@@ -584,8 +740,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": null,
         "keywords": null
@@ -594,7 +762,7 @@
     {
       "url": "chenshinshi/OneNote@283a3583cd5d6cb8c8c68f7d0d887d866a526da5",
       "updated": "2025-07-13T04:32:59Z",
-      "stars": 5,
+      "stars": 6,
       "openIssues": 4,
       "size": 344466,
       "installSize": 607867,
@@ -618,8 +786,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": null,
         "keywords": null
@@ -652,8 +832,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -693,8 +885,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -714,7 +918,7 @@
       "url": "StarDustSheep/pink-room@ef1f44c986a259b4732c11af38e36bf785dd1f34",
       "updated": "2025-03-11T08:35:06Z",
       "stars": 21,
-      "openIssues": 4,
+      "openIssues": 6,
       "size": 241122,
       "installSize": 376535,
       "package": {
@@ -737,8 +941,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -785,7 +1001,7 @@
       "url": "ChaosPainter-pjz/SiYuan_FeishuStyle@e078d96778815afec77374e686ae5e2afb9901ba",
       "updated": "2025-02-08T07:56:47Z",
       "stars": 0,
-      "openIssues": 1,
+      "openIssues": 2,
       "size": 101809,
       "installSize": 159683,
       "package": {
@@ -808,8 +1024,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -826,8 +1054,8 @@
     {
       "url": "Zuoqiu-Yingyi/siyuan-theme-dark-plus@9ad6363d7a65651990629313f84869708d836b29",
       "updated": "2025-01-14T13:43:44Z",
-      "stars": 147,
-      "openIssues": 25,
+      "stars": 149,
+      "openIssues": 27,
       "size": 9140483,
       "installSize": 13262780,
       "package": {
@@ -850,8 +1078,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "README_zh_CN.md",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -910,8 +1150,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -951,8 +1203,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": null,
         "keywords": null
@@ -991,7 +1255,7 @@
     {
       "url": "Morganwan90/Lightblue-siyuan-theme@c9ca437d176fa7d8c12b34e923656037ac6a6ed0",
       "updated": "2024-09-13T08:22:58Z",
-      "stars": 26,
+      "stars": 25,
       "openIssues": 1,
       "size": 726497,
       "installSize": 1409381,
@@ -1015,8 +1279,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -1056,8 +1332,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -1097,8 +1385,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1138,8 +1438,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1179,8 +1491,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": null,
         "keywords": [
@@ -1217,8 +1541,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1256,8 +1592,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1300,8 +1648,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1374,8 +1734,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1416,8 +1788,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1457,8 +1841,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1498,8 +1894,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": null,
         "keywords": null
@@ -1532,8 +1940,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": null,
         "keywords": null
@@ -1566,8 +1986,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": null,
         "keywords": null
@@ -1600,8 +2032,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": null,
         "keywords": null
@@ -1611,7 +2055,7 @@
       "url": "StarDustSheep/It_hurts@a821992381e4658d8d3deafe5d55f951789c0b23",
       "updated": "2023-08-23T08:45:10Z",
       "stars": 0,
-      "openIssues": 2,
+      "openIssues": 1,
       "size": 658008,
       "installSize": 695588,
       "package": {
@@ -1634,8 +2078,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1675,8 +2131,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1716,8 +2184,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1733,7 +2213,7 @@
     {
       "url": "svchord/Rem-Craft@529e1a1eca8223eff668a02547d80f8b59ddb915",
       "updated": "2023-07-09T19:20:51Z",
-      "stars": 113,
+      "stars": 114,
       "openIssues": 26,
       "size": 1620626,
       "installSize": 2772440,
@@ -1757,8 +2237,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": "README_en_US.md"
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "README_en_US.md",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": {
           "openCollective": "",
@@ -1774,7 +2266,7 @@
     {
       "url": "siyuan-note/theme-sample@1ff7079a27543e589f0ed18effaceaf40ccdf8cf",
       "updated": "2023-05-30T03:42:50Z",
-      "stars": 4,
+      "stars": 6,
       "openIssues": 0,
       "size": 13340,
       "installSize": 26549,
@@ -1798,8 +2290,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",

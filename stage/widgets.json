@@ -1,17 +1,301 @@
 {
   "repos": [
     {
-      "url": "OpaqueGlass/progressBarT-sywidget@0ac91ffe8630127b186657edfeb880757be0b546",
-      "updated": "2025-11-06T02:40:54Z",
-      "stars": 11,
+      "url": "hogmoff/siyuan-widget-chart@5b0c1837ac02bf0f5417d8dd30c6a389984961e7",
+      "updated": "2025-12-21T10:49:16Z",
+      "stars": 1,
+      "openIssues": 2,
+      "size": 54988,
+      "installSize": 131277,
+      "package": {
+        "name": "siyuan-widget-chart",
+        "author": "hogmoff",
+        "url": "https://github.com/hogmoff/siyuan-widget-chart",
+        "version": "0.1.1",
+        "minAppVersion": "3.2.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Database Chart",
+          "zh_CN": "数据库图表",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Render Siyuan database tables (AttributeView) as interactive bar or line charts with filtering, mathematical operations, and customizable legends",
+          "zh_CN": "将思源数据库表（属性视图）渲染为交互式柱状图或折线图，支持筛选、数学运算和可自定义图例",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "README_de_DE.md",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": []
+        },
+        "keywords": [
+          "chart",
+          "graph",
+          "database",
+          "AttributeView",
+          "visualization",
+          "Diagramm",
+          "Grafik",
+          "Datenbank",
+          "Visualisierung",
+          "图表",
+          "数据库",
+          "可视化",
+          "属性视图"
+        ]
+      }
+    },
+    {
+      "url": "suka233/siyuan-Kmind@267849b3a16736fb69d3f654f3de7d256ce1d61c",
+      "updated": "2025-12-20T10:11:46Z",
+      "stars": 27,
+      "openIssues": 2,
+      "size": 5649136,
+      "installSize": 23257712,
+      "package": {
+        "name": "Kmind",
+        "author": "suka",
+        "url": "https://github.com/suka233/siyuan-Kmind",
+        "version": "2.13.4",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "KMind",
+          "zh_CN": "",
+          "en_US": "KMind Mind Map"
+        },
+        "description": {
+          "default": "KMind思维导图，多根节点，节点悬浮预览思源块，自动隐藏UI与自动黑暗模式；",
+          "zh_CN": "",
+          "en_US": "KMind Mind Map, preview Siyuan block on node hover, auto hide UI and auto dark mode"
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "README_en_US.md",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://txc.qq.com/products/662653"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "golddogfish/siyuan-gantt@5c27723de1cd823bfe8cd94954c593d37140dc06",
+      "updated": "2025-12-18T11:35:37Z",
+      "stars": 0,
+      "openIssues": 2,
+      "size": 103808,
+      "installSize": 185696,
+      "package": {
+        "name": "siyuan-gantt",
+        "author": "goldfish",
+        "url": "https://github.com/golddogfish/siyuan-gantt",
+        "version": "1.3.4",
+        "minAppVersion": "2.10.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Gantt Chart",
+          "zh_CN": "甘特图",
+          "en_US": ""
+        },
+        "description": {
+          "default": "A Gantt chart widget for SiYuan Note, visualizing project timelines from database views.",
+          "zh_CN": "思源笔记甘特图挂件，从数据库视图可视化项目时间线。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": []
+        },
+        "keywords": [
+          "gantt",
+          "甘特图",
+          "project",
+          "项目管理",
+          "timeline",
+          "时间线",
+          "database",
+          "数据库"
+        ]
+      }
+    },
+    {
+      "url": "BryceAndJuly/Whiteboard@514e11654c442e722a358df094d89ae95363f6cd",
+      "updated": "2025-12-18T08:53:20Z",
+      "stars": 33,
+      "openIssues": 1,
+      "size": 18863305,
+      "installSize": 28516956,
+      "package": {
+        "name": "Whiteboard",
+        "author": "BryceAndJuly",
+        "url": "https://github.com/BryceAndJuly/Whiteboard",
+        "version": "2.0.17",
+        "minAppVersion": "2.9.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Whiteboard",
+          "zh_CN": "Whiteboard",
+          "en_US": ""
+        },
+        "description": {
+          "default": "一个离线版的Excalidraw，嵌入后会默认铺满文档区域",
+          "zh_CN": "一个离线版的Excalidraw，嵌入后会默认铺满文档区域",
+          "en_US": "An offline version of the Excalidraw. After embedding, it will default to fill the document area."
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "README_en_US.md",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            ""
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "OpaqueGlass/listChildDocs@60b5d82894d0f4b8074732215a4eb29a92850147",
+      "updated": "2025-12-13T15:57:35Z",
+      "stars": 23,
       "openIssues": 3,
-      "size": 385544,
-      "installSize": 726574,
+      "size": 1100659,
+      "installSize": 2692293,
+      "package": {
+        "name": "listChildDocs",
+        "author": "OpaqueGlass",
+        "url": "https://github.com/OpaqueGlass/listChildDocs",
+        "version": "0.4.6",
+        "minAppVersion": "3.0.17",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "listChildDocs",
+          "zh_CN": "列出子文档",
+          "en_US": "listChildDocs"
+        },
+        "description": {
+          "default": "Display child-doc list in widget, or insert list into the doc. [English is not fully supported]",
+          "zh_CN": "在挂件里显示文档/大纲列表，或向文档中插入文档/大纲列表",
+          "en_US": "Display child-doc list in widget, or insert list into the doc. [English is not fully supported]"
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "README_en_US.md",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://wj.qq.com/s2/12395364/b69f/"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "OpaqueGlass/progressBarT-sywidget@35ecb8dede33cc3ae65023e43670a6fa26e94bb9",
+      "updated": "2025-12-13T06:57:34Z",
+      "stars": 11,
+      "openIssues": 4,
+      "size": 385677,
+      "installSize": 727690,
       "package": {
         "name": "progressBarT",
         "author": "OpaqueGlass",
         "url": "https://github.com/OpaqueGlass/progressBarT-sywidget",
-        "version": "0.2.3",
+        "version": "0.2.4",
         "minAppVersion": "",
         "backends": null,
         "frontends": null,
@@ -27,8 +311,20 @@
         },
         "readme": {
           "default": "README_en_US.md",
-          "zh_CN": "README.md",
-          "en_US": "README_en_US.md"
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "README_en_US.md",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": {
           "openCollective": "",
@@ -39,6 +335,168 @@
           ]
         },
         "keywords": null
+      }
+    },
+    {
+      "url": "tangshangkui/encrypt-excel@31e4cea4e98dda0fc6228da10c09707db72f4ca7",
+      "updated": "2025-11-21T14:58:13Z",
+      "stars": 0,
+      "openIssues": 2,
+      "size": 3945257,
+      "installSize": 21857233,
+      "package": {
+        "name": "encrypt-excel",
+        "author": "#tangshangkui",
+        "url": "#https://github.com/tangshangkui/encrypt-excel",
+        "version": "0.0.1",
+        "minAppVersion": "3.2.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "加密Excel",
+          "zh_CN": "加密Excel",
+          "en_US": "Encrypt Excel"
+        },
+        "description": {
+          "default": "这是一个可以设置密码的Excel",
+          "zh_CN": "这是一个可以设置密码的Excel",
+          "en_US": "This is an Excel where you can set a password"
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": null
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "xiaoduo/sy-widget-show-diff@cc49e89287f154c661e6e2fecb1e030d5afb7aad",
+      "updated": "2025-11-14T05:56:32Z",
+      "stars": 0,
+      "openIssues": 0,
+      "size": 185124,
+      "installSize": 251206,
+      "package": {
+        "name": "sy-widget-show-diff",
+        "author": "xiaoduo",
+        "url": "https://github.com/xiaoduo/sy-widget-show-diff",
+        "version": "0.0.3",
+        "minAppVersion": "2.8.8",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Show Diff Widget",
+          "zh_CN": "代码差异对比挂件",
+          "en_US": ""
+        },
+        "description": {
+          "default": "A widget that automatically displays the diff between two code blocks in a super block above it",
+          "zh_CN": "自动显示上方超级块中两个代码块差异的挂件",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": []
+        },
+        "keywords": [
+          "diff",
+          "compare",
+          "code",
+          "差异对比",
+          "代码对比"
+        ]
+      }
+    },
+    {
+      "url": "YuxinZhaozyx/siyuan-pseudocode@d88b6c921555dbe1ea44b9b27521a77748f8612e",
+      "updated": "2025-11-08T11:22:02Z",
+      "stars": 6,
+      "openIssues": 0,
+      "size": 1583136,
+      "installSize": 6706739,
+      "package": {
+        "name": "siyuan-pseudocode",
+        "author": "Yuxin Zhao",
+        "url": "https://github.com/YuxinZhaozyx/siyuan-pseudocode",
+        "version": "0.4.2",
+        "minAppVersion": "2.8.8",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Pseudocode",
+          "zh_CN": "伪代码",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Upgrade to Pseudocode Plugin(siyuan-embed-pseudocode)",
+          "zh_CN": "现已升级为伪代码插件(siyuan-embed-pseudocode)，请迁移",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "YuxinZhaozyx",
+          "custom": []
+        },
+        "keywords": [
+          "LaTeX",
+          "伪代码"
+        ]
       }
     },
     {
@@ -68,8 +526,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -85,52 +555,10 @@
       }
     },
     {
-      "url": "YuxinZhaozyx/siyuan-pseudocode@39f853e19b95ff01daa192ad87ce002f795ebe61",
-      "updated": "2025-11-01T06:01:04Z",
-      "stars": 6,
-      "openIssues": 0,
-      "size": 1583022,
-      "installSize": 6706465,
-      "package": {
-        "name": "siyuan-pseudocode",
-        "author": "Yuxin Zhao",
-        "url": "https://github.com/YuxinZhaozyx/siyuan-pseudocode",
-        "version": "0.4.1",
-        "minAppVersion": "2.8.8",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Pseudocode",
-          "zh_CN": "伪代码",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Elegantly Writing and Displaying Pseudocode in SiYuan",
-          "zh_CN": "在思源笔记中优雅地书写和展示伪代码",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "YuxinZhaozyx",
-          "custom": []
-        },
-        "keywords": [
-          "LaTeX",
-          "伪代码"
-        ]
-      }
-    },
-    {
       "url": "TCOTC/inline-elements@6e48cf2b813f0ae81b29993cb4054686d7d0cab9",
       "updated": "2025-10-06T05:32:54Z",
       "stars": 4,
-      "openIssues": 2,
+      "openIssues": 3,
       "size": 42382,
       "installSize": 57886,
       "package": {
@@ -153,8 +581,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -202,96 +642,26 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
           "patreon": "",
           "github": "",
           "custom": null
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "OpaqueGlass/listChildDocs@264e38b933bbce9ee5dc7a2c506cdfc72e9ce4a3",
-      "updated": "2025-09-10T02:54:10Z",
-      "stars": 22,
-      "openIssues": 3,
-      "size": 1100425,
-      "installSize": 2689939,
-      "package": {
-        "name": "listChildDocs",
-        "author": "OpaqueGlass",
-        "url": "https://github.com/OpaqueGlass/listChildDocs",
-        "version": "0.4.5",
-        "minAppVersion": "3.0.17",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "listChildDocs",
-          "zh_CN": "列出子文档",
-          "en_US": "listChildDocs"
-        },
-        "description": {
-          "default": "Display child-doc list in widget, or insert list into the doc. [English is not fully supported]",
-          "zh_CN": "在挂件里显示文档/大纲列表，或向文档中插入文档/大纲列表",
-          "en_US": "Display child-doc list in widget, or insert list into the doc. [English is not fully supported]"
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": "README_en_US.md"
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://wj.qq.com/s2/12395364/b69f/"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "BryceAndJuly/Whiteboard@bbc8bc758da2c5fd7d9c517b418e7f4f19407822",
-      "updated": "2025-08-27T11:34:05Z",
-      "stars": 31,
-      "openIssues": 2,
-      "size": 18893656,
-      "installSize": 28532610,
-      "package": {
-        "name": "Whiteboard",
-        "author": "BryceAndJuly",
-        "url": "https://github.com/BryceAndJuly/Whiteboard",
-        "version": "2.0.11",
-        "minAppVersion": "2.9.0",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Whiteboard",
-          "zh_CN": "Whiteboard",
-          "en_US": ""
-        },
-        "description": {
-          "default": "一个离线版的Excalidraw，嵌入后会默认铺满文档区域",
-          "zh_CN": "一个离线版的Excalidraw，嵌入后会默认铺满文档区域",
-          "en_US": "An offline version of the Excalidraw. After embedding, it will default to fill the document area."
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": "README_en_US.md"
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            ""
-          ]
         },
         "keywords": null
       }
@@ -323,8 +693,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -346,49 +728,10 @@
       }
     },
     {
-      "url": "tangshangkui/encrypt-excel@c28d88dfefacab5580d6859bfbfb28ee7ea4bde3",
-      "updated": "2025-07-15T05:22:57Z",
-      "stars": 0,
-      "openIssues": 0,
-      "size": 2728555,
-      "installSize": 9700115,
-      "package": {
-        "name": "encrypt-excel",
-        "author": "#tangshangkui",
-        "url": "#https://github.com/tangshangkui/encrypt-excel",
-        "version": "0.0.1",
-        "minAppVersion": "3.2.0",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "加密Excel",
-          "zh_CN": "加密Excel",
-          "en_US": "Encrypt Excel"
-        },
-        "description": {
-          "default": "这是一个可以设置密码的Excel",
-          "zh_CN": "这是一个可以设置密码的Excel",
-          "en_US": "This is an Excel where you can set a password"
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": null
-        },
-        "keywords": null
-      }
-    },
-    {
       "url": "ay27/run_python_code@f268f9592a649b29132d25dcc3db2258c3164344",
       "updated": "2025-05-05T13:40:34Z",
       "stars": 5,
-      "openIssues": 0,
+      "openIssues": 1,
       "size": 1880503,
       "installSize": 6022248,
       "package": {
@@ -411,8 +754,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -453,8 +808,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -492,8 +859,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": {
           "openCollective": "",
@@ -508,7 +887,7 @@
       "url": "Macavity/siyuan-widget-database-block@073d7b25d58fdb1421e8a77eb59f6ed764b63359",
       "updated": "2025-01-19T20:39:10Z",
       "stars": 2,
-      "openIssues": 2,
+      "openIssues": 4,
       "size": 307209,
       "installSize": 492025,
       "package": {
@@ -545,8 +924,20 @@
         },
         "readme": {
           "default": "",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": "README.md"
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "README.md",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -591,8 +982,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -639,8 +1042,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": {
           "openCollective": "",
@@ -681,8 +1096,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -720,8 +1147,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -765,7 +1204,7 @@
       "url": "Achuan-2/siyuan-widget-dayCounter@1674635e6abb56035b91074edbc09e4bd555f546",
       "updated": "2024-08-13T02:03:39Z",
       "stars": 2,
-      "openIssues": 8,
+      "openIssues": 7,
       "size": 154212,
       "installSize": 303677,
       "package": {
@@ -788,8 +1227,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -829,8 +1280,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -870,8 +1333,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": null,
         "keywords": [
@@ -909,8 +1384,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -953,8 +1440,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": null,
         "keywords": null
@@ -964,7 +1463,7 @@
       "url": "hqweay/widget-inline-extractor@1f88051cf46dff363c62efa7aec4cf0d338c1df4",
       "updated": "2024-04-19T12:26:38Z",
       "stars": 0,
-      "openIssues": 1,
+      "openIssues": 2,
       "size": 303204,
       "installSize": 324968,
       "package": {
@@ -987,8 +1486,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": {
           "openCollective": "",
@@ -1036,8 +1547,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1077,8 +1600,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "README_zh_CN.md",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1132,8 +1667,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1173,8 +1720,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1216,8 +1775,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1272,8 +1843,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1318,8 +1901,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1364,8 +1959,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1408,8 +2015,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1454,8 +2073,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1495,8 +2126,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1539,8 +2182,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1583,8 +2238,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1627,8 +2294,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1671,8 +2350,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1689,7 +2380,7 @@
       "url": "hito0512/DynamicTodo@80269ce5923cbe5319365cd56df93530db635573",
       "updated": "2023-08-16T02:26:46Z",
       "stars": 2,
-      "openIssues": 1,
+      "openIssues": 2,
       "size": 509571,
       "installSize": 710987,
       "package": {
@@ -1712,8 +2403,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": {
           "openCollective": "",
@@ -1727,7 +2430,7 @@
     {
       "url": "ooooooook/widget-excalidraw@5252bde43c6c51085486d9f8088b2f2a9c838a17",
       "updated": "2023-07-26T08:53:52Z",
-      "stars": 21,
+      "stars": 22,
       "openIssues": 14,
       "size": 8232326,
       "installSize": 19916644,
@@ -1751,8 +2454,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -1790,8 +2505,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1831,8 +2558,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "README_zh_CN.md",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1873,8 +2612,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "README_zh_CN.md",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1891,7 +2642,7 @@
     {
       "url": "Zuoqiu-Yingyi/widget-query@db0c11b6b191fa5274763c7cb73c896915a14159",
       "updated": "2023-06-03T16:05:36Z",
-      "stars": 58,
+      "stars": 60,
       "openIssues": 12,
       "size": 1638506,
       "installSize": 1811087,
@@ -1915,8 +2666,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "README_zh_CN.md",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -1933,7 +2696,7 @@
     {
       "url": "siyuan-note/widget-sample@d64c5fd09a7328f90d67d58b9f60b9623b1a0879",
       "updated": "2023-05-30T03:41:14Z",
-      "stars": 5,
+      "stars": 6,
       "openIssues": 0,
       "size": 129883,
       "installSize": 486191,
@@ -1957,8 +2720,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",

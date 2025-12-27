@@ -27,8 +27,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_en.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_en.md"
         },
         "funding": {
           "openCollective": "",
@@ -75,8 +87,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -117,8 +141,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README.md"
         },
         "funding": null,
         "keywords": null
@@ -151,8 +187,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -195,8 +243,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": ""
         },
         "funding": {
           "openCollective": "",
@@ -218,8 +278,8 @@
     {
       "url": "frostime/sy-template-simple-todo@11a979be14ec36a60889cd214bc55570d05f0d23",
       "updated": "2023-11-26T03:46:39Z",
-      "stars": 0,
-      "openIssues": 0,
+      "stars": 1,
+      "openIssues": 1,
       "size": 111707,
       "installSize": 134490,
       "package": {
@@ -242,8 +302,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -260,7 +332,7 @@
     {
       "url": "siyuan-note/template-sample@2a2128f3953ca8d9efbc4dee8afdfaa5c9cb9309",
       "updated": "2023-05-30T03:38:05Z",
-      "stars": 2,
+      "stars": 3,
       "openIssues": 0,
       "size": 13068,
       "installSize": 25934,
@@ -284,8 +356,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",
@@ -325,8 +409,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "b3log",
@@ -364,8 +460,20 @@
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
+          "ar_SA": "",
+          "de_DE": "",
+          "en_US": "",
+          "es_ES": "",
+          "fr_FR": "",
+          "he_IL": "",
+          "it_IT": "",
+          "ja_JP": "",
+          "ko_KR": "",
+          "pl_PL": "",
+          "pt_BR": "",
+          "ru_RU": "",
+          "zh_CHT": "",
+          "zh_CN": "README_zh_CN.md"
         },
         "funding": {
           "openCollective": "",

@@ -64,8 +64,9 @@ var CheckResultTestExample = CheckResult{
 					Pass:  true,
 					Value: "Vanessa",
 				},
-				URL: Attr{
+				URL: Url{
 					Pass:  true,
+					Valid: true,
 					Value: "https://github.com/siyuan-note/icon-sample",
 				},
 			},
@@ -113,8 +114,9 @@ var CheckResultTestExample = CheckResult{
 				Author: Attr{
 					Pass: false,
 				},
-				URL: Attr{
-					Pass: false,
+				URL: Url{
+					Pass:  false,
+					Valid: false,
 				},
 			},
 		},
@@ -172,8 +174,9 @@ var CheckResultTestExample = CheckResult{
 					Pass:  true,
 					Value: "Vanessa",
 				},
-				URL: Attr{
+				URL: Url{
 					Pass:  true,
+					Valid: true,
 					Value: "https://github.com/siyuan-note/plugin-sample",
 				},
 			},
@@ -220,8 +223,9 @@ var CheckResultTestExample = CheckResult{
 				Author: Attr{
 					Pass: false,
 				},
-				URL: Attr{
-					Pass: false,
+				URL: Url{
+					Pass:  false,
+					Valid: false,
 				},
 			},
 		},
@@ -278,8 +282,9 @@ var CheckResultTestExample = CheckResult{
 					Pass:  true,
 					Value: "Vanessa",
 				},
-				URL: Attr{
+				URL: Url{
 					Pass:  true,
+					Valid: true,
 					Value: "https://github.com/siyuan-note/template-sample",
 				},
 			},
@@ -326,8 +331,9 @@ var CheckResultTestExample = CheckResult{
 				Author: Attr{
 					Pass: false,
 				},
-				URL: Attr{
-					Pass: false,
+				URL: Url{
+					Pass:  false,
+					Valid: false,
 				},
 			},
 		},
@@ -385,8 +391,9 @@ var CheckResultTestExample = CheckResult{
 					Pass:  true,
 					Value: "Vanessa",
 				},
-				URL: Attr{
+				URL: Url{
 					Pass:  true,
+					Valid: true,
 					Value: "https://github.com/siyuan-note/theme-sample",
 				},
 			},
@@ -434,8 +441,9 @@ var CheckResultTestExample = CheckResult{
 				Author: Attr{
 					Pass: false,
 				},
-				URL: Attr{
-					Pass: false,
+				URL: Url{
+					Pass:  false,
+					Valid: false,
 				},
 			},
 		},
@@ -493,8 +501,9 @@ var CheckResultTestExample = CheckResult{
 					Pass:  true,
 					Value: "Vanessa",
 				},
-				URL: Attr{
+				URL: Url{
 					Pass:  true,
+					Valid: true,
 					Value: "https://github.com/siyuan-note/widget-sample",
 				},
 			},
@@ -542,8 +551,9 @@ var CheckResultTestExample = CheckResult{
 				Author: Attr{
 					Pass: false,
 				},
-				URL: Attr{
-					Pass: false,
+				URL: Url{
+					Pass:  false,
+					Valid: false,
 				},
 			},
 		},
